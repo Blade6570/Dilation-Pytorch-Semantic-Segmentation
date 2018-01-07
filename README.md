@@ -2,7 +2,7 @@
 A PyTorch implementation of semantic segmentation according to [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122) by Yu and Koltun.
 Pretrained weights are obtained from [dialation-Tensorflow](https://github.com/ndrplz/dilation-tensorflow) and thanks to [Andrea Palazzi](https://github.com/ndrplz) for his work from which this work has been inspired.
 
-![Alt text](https://github.com/Blade6570/Dialation-Pytorch/blob/master/data/cityscapes_real.png)
+![Alt text](https://github.com/Blade6570/Dialation-Pytorch/blob/master/data/cityscapes_real.png?raw=true "Input Image")
 **How To**
 1. Download the pretrained weights from [cityscapes](https://drive.google.com/file/d/0Bx9YaGcDPu3XR0d4cXVSWmtVdEE/view)
 2. Keep that in the *data* folder
