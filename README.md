@@ -1,4 +1,4 @@
-# Dialation-Pytorch
+# Dilation-Pytorch-Semantic Segmentation
 A PyTorch implementation of semantic segmentation according to [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122) by Yu and Koltun.
 Pretrained weights are obtained from [dialation-Tensorflow](https://github.com/ndrplz/dilation-tensorflow) and thanks to [Andrea Palazzi](https://github.com/ndrplz) for his work from which this work has been inspired.
 
