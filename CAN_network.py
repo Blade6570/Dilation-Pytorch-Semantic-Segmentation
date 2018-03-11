@@ -277,6 +277,6 @@ output=semanticmap(Z)
 m=CONFIG['cityscapes']['output_shape']
 output=output[1]
 output=output.data.view(1,m[0],m[1]).numpy()
-color_image = CONFIG['cityscapes']['palette'][output.ravel()].reshape(m)
+color_image = CONFIG['cityscapes']['palette'][output.ravel()].reshape((m[0],m[1],3))
 import scipy.misc
 scipy.misc.imsave('data/pytorch_out.png', color_image)
