@@ -71,7 +71,7 @@ class CAN(nn.Module):
             nn.ReLU(inplace=True),
             nn.Conv2d(512, 512, kernel_size=3, stride=1, padding=0, bias=True, dilation=2),
             nn.ReLU(inplace=True),
-            nn.Conv2d(512, 4096, kernel_size=3, stride=1, padding=0, bias=True, dilation=4), #fc6 layer
+            nn.Conv2d(512, 4096, kernel_size=7, stride=1, padding=0, bias=True, dilation=4), #fc6 layer
             nn.ReLU(inplace=True),
             
 #            nn.Dropout(),
